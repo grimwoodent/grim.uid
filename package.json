@@ -1,5 +1,5 @@
 {
-  "name": "@grimwood/uid",
+  "name": "@grimwoodent/uid",
   "version": "1.0.0",
   "description": "UIDs queue and generators",
   "main": "dist/index.js",
