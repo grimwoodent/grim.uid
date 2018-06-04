@@ -1,3 +1,10 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.UIDGenerator = void 0;
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -8,7 +15,7 @@ var s4 = function s4() {
   return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);
 };
 
-export var UIDGenerator =
+var UIDGenerator =
 /*#__PURE__*/
 function () {
   function UIDGenerator() {
@@ -31,3 +38,5 @@ function () {
 
   return UIDGenerator;
 }();
+
+exports.UIDGenerator = UIDGenerator;

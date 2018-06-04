@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import 'mocha';
-import UID from '../src';
+import UID from '../dist';
 
 describe('UID', () => {
     it('should create queue', () => {
